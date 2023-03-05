@@ -13,6 +13,9 @@
 # 미리보기
 ![HUFSBUS_실행화면](https://user-images.githubusercontent.com/74558236/222948659-be2286e0-3eef-432d-afc7-7f1e8d6f1c3a.gif)
 
+[배포 경로]
+
+에브리타임 https://everytime.kr/423156/v/291667985
 ---
 # 주의 사항
 
