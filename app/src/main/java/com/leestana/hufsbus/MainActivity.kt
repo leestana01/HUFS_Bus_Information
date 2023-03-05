@@ -50,11 +50,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun copyTimeTable(){
         val cal: Calendar = Calendar.getInstance()
-        val nWeek: Int = cal.get(Calendar.DAY_OF_WEEK)
-        val inputStream: InputStream = if (nWeek == 1 || nWeek == 7){
-            resources.openRawResource(R.raw.bustime_weekend)
-        } else {
-            resources.openRawResource(R.raw.bustime_weekdays)
+        val inputStream: InputStream = when(cal.get(Calendar.DAY_OF_WEEK)){
+            1 -> resources.openRawResource(R.raw.bustime_sunday)
+            7 -> resources.openRawResource(R.raw.bustime_saturday)
+            else -> resources.openRawResource(R.raw.bustime_weekdays)
         }
         val text = inputStream.bufferedReader().use(BufferedReader::readText)
 

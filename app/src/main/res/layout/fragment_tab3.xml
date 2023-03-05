@@ -51,11 +51,19 @@
             android:textSize="20sp"
             android:text="@string/tab3_display_text2"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab3_display_Disclaimer"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gangwon_tt"
+            android:textSize="17sp"
             android:text="@string/tab3_display_text3"/>
+
+
 
     </LinearLayout>
 
