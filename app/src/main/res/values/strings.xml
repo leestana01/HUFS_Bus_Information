@@ -11,7 +11,7 @@
     <string name="tab_name_3">설정</string>
     <string name="tab_name_4">이후 시간 모음</string>
 
-    <string name="tab1_display_head">가장 빠른 버스를 보여드릴게요!</string>
+    <string name="tab1_display_head">가장 빠른 하행 버스를 보여드릴게요!</string>
     <string name="tab1_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
 
     <string name="tab2_display_head">오늘의 전체 시간표입니다 :)</string>
