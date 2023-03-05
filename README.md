@@ -11,7 +11,7 @@
 
 ---
 # 미리보기
-![HUFSBUS_실행화면](https://user-images.githubusercontent.com/74558236/222948659-be2286e0-3eef-432d-afc7-7f1e8d6f1c3a.gif)
+![HUFSBUS_실행화면](https://user-images.githubusercontent.com/74558236/222958476-e2a47181-47c0-48b9-88be-0fe649b74bc3.gif)
 
 [배포 경로]
 
