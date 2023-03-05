@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tab2_display_text1"
+            android:text="@string/tab2_display_head"
             android:fontFamily="@font/gangwon_tt"
             android:textSize="25sp"/>
 

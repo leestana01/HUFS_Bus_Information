@@ -11,15 +11,18 @@
     <string name="tab_name_3">설정</string>
     <string name="tab_name_4">이후 시간 모음</string>
 
+    <string name="tab1_display_head">가장 빠른 버스를 보여드릴게요!</string>
+    <string name="tab1_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
+
     <string name="tab2_display_head">오늘의 전체 시간표입니다 :)</string>
     <string name="tab2_display_text1">실시간 정보는 좌측탭을 참고하세요</string>
     <string name="tab2_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
-    <string name="tab1_display_head">가장 빠른 버스를 보여드릴게요!</string>
-    <string name="tab1_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
+
     <string name="tab3_display_head">설정페이지</string>
     <string name="tab3_display_text1">정보통신공학과 20 이수혁\n</string>
-    <string name="tab3_display_text2">업데이트 예정\n외부 링크에서 버스 시간표를 \n불러올 수 있도록 수정할 예정입니다.\n\n</string>
-    <string name="tab3_display_text3">주말 외 공휴일 판별 불가!</string>
+    <string name="tab3_display_text2">이 어플은 외대에서 출발하는 \n하행 빨버 or 빵차 만 안내합니다.\n\n</string>
+    <string name="tab3_display_text3">업데이트 예정\n외부 링크에서 버스 시간표를 \n불러올 수 있도록 수정할 예정입니다.\n\n</string>
+    <string name="tab3_display_text4">주말 외 공휴일 판별 불가!</string>
 
 
 </resources>
