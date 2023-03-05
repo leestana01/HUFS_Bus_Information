@@ -35,6 +35,6 @@
 
 ---
 # 다운로드 링크 바로가기
-https://github.com/leestana01/HUFS_Bus_Information/releases/download/V1.1.2/HUFS_Bus_Information.apk
+https://github.com/leestana01/HUFS_Bus_Information/releases/download/V1.2/HUFS_Bus_Information.apk
 
-![download](https://user-images.githubusercontent.com/74558236/222948950-0695b214-7909-42cb-ba1d-50217f3270e9.png)
+![download](https://user-images.githubusercontent.com/74558236/222950836-15583465-fa4e-476f-9853-093b36de3d5b.png)
