@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         catch (e:Exception){
             try{ //실패 시 내장된 목록표 불러오기
                 copyTimeTable()
-                Toast.makeText(this@MainActivity, "내장된 목록표를 불러오는데 성공했습니다", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "시간표를 불러오는데 성공했습니다", Toast.LENGTH_SHORT).show()
             }
             catch (e:Exception){
                 Toast.makeText(this@MainActivity, "심각한 에러 발생", Toast.LENGTH_SHORT).show()
@@ -62,7 +62,9 @@ class MainActivity : AppCompatActivity() {
         file.writeText(text)
     }
 
-
+    override fun onBackPressed() {
+        finish()
+    }
 
 }
 
