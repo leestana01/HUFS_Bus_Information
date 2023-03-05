@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,32 +11,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
-        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="설정페이지"
+            android:text="@string/tab3_display_head"
             android:fontFamily="@font/gangwon_tt"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <View
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="5dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="45dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="250dp"
             android:background="@color/hufs_sig" />
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="업데이트 예정"/>
+        android:layout_marginTop="10dp"
+        android:text="@string/tab3_display_text1"/>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="외부 링크에서 버스 시간표를 \n불러올 수 있도록 수정할 예정입니다."/>
+        android:text="@string/tab3_display_text2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab3_display_text3"/>
 
 </LinearLayout>

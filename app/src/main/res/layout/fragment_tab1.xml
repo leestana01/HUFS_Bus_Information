@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".TabFragment1">
-
-    <!-- TODO: Update blank fragment layout -->
     <!-- FrameLayout 이였음 -->
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
-        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="가장 빠른 버스를 보여드릴게요!"
+            android:text="@string/tab1_display_head"
             android:fontFamily="@font/gangwon_tt"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/nowtime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="현재 시간을 로드하는데 실패하였습니다."
-            android:textSize="15dp"/>
+            android:text="@string/tab1_display_error"
+            android:textSize="15sp"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="45dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="45dp"
             android:background="@color/hufs_sig" />
     </LinearLayout>
     <ScrollView
@@ -44,7 +41,7 @@
         <TableLayout
             android:id="@+id/tableLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:stretchColumns="*"
             android:padding="16dp">
         </TableLayout>

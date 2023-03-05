@@ -3,6 +3,7 @@ package com.leestana.hufsbus
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.tabs.TabLayoutMediator
 import com.leestana.hufsbus.databinding.ActivityMainBinding
 import java.io.BufferedReader
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         try{ //인터넷에서 버스 목록표 불러오기
             throw java.lang.Exception()
         }
@@ -49,11 +51,10 @@ class MainActivity : AppCompatActivity() {
     private fun copyTimeTable(){
         val cal: Calendar = Calendar.getInstance()
         val nWeek: Int = cal.get(Calendar.DAY_OF_WEEK)
-
         val inputStream: InputStream = if (nWeek == 1 || nWeek == 7){
-            resources.openRawResource(R.raw.bustime_weekdays)
-        } else {
             resources.openRawResource(R.raw.bustime_weekend)
+        } else {
+            resources.openRawResource(R.raw.bustime_weekdays)
         }
         val text = inputStream.bufferedReader().use(BufferedReader::readText)
 
