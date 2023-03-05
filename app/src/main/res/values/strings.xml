@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HUFS Bus 알림이</string>
+
+    <string name="app_name_test">테스트 앱 이름</string>
+    <string name="test">테스트</string>
+    <string name="test2">테스트Message</string>
+    <string name="test3">테스트Message입니다</string>
+
+    <string name="tab_name_1">실시간 정보</string>
+    <string name="tab_name_2">저장 시간 목록</string>
+    <string name="tab_name_3">설정</string>
+    <string name="tab_name_4">이후 시간 모음</string>
+
+    <string name="tab2_display_text1">오늘의 전체 시간표입니다 :)</string>
+    <string name="tab2_display_text2">실시간 정보는 좌측탭을 참고하세요</string>
+    <string name="tab2_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
+
+
+</resources>
