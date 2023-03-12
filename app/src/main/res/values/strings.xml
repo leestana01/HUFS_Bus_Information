@@ -7,7 +7,7 @@
     <string name="test3">테스트Message입니다</string>
 
     <string name="tab_name_1">실시간 정보</string>
-    <string name="tab_name_2">저장 시간 목록</string>
+    <string name="tab_name_2">오늘 전체 시간</string>
     <string name="tab_name_3">안내</string>
     <string name="tab_name_4">이후 시간 모음</string>
 
@@ -19,10 +19,12 @@
     <string name="tab2_display_error">현재 시간을 로드하는데 실패하였습니다.</string>
 
     <string name="tab3_display_head">안내페이지</string>
+    <string name="tab3_display_noticeMenu">공지사항</string>
     <string name="tab3_display_text1">정보통신공학과 20 이수혁\n</string>
     <string name="tab3_display_text2">이 어플은 외대에서 출발하는 \n하행 빨버 or 빵차 만 안내합니다.\n\n</string>
     <string name="tab3_display_text3">주말을 제외한 공휴일은 이 어플에서 판별하지 않습니다.\n따라서 공휴일은 공식 시간표를 참조하시기 바랍니다.</string>
     <string name="tab3_display_Disclaimer">본 어플은 현재까지 제시된\n버스 시간표를 기준으로 제작되었습니다.\n\n따라서 시간표에 변동이 생기거나, 기타 오류가 있을 경우\n반영이 되지 않으니 이를 참고하시어\n항상 필히 공식 버스 시간표를 확인하는 것을 우선하십시오.\n\n어플 사용으로 인해 발생한 문제는 책임지지 않습니다.\n\n</string>
+
 
 
 </resources>

@@ -2,6 +2,7 @@ package com.leestana.hufsbus
 
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -39,8 +40,14 @@ class TabFragment2 : Fragment() {
         binding.nowdate.text = SimpleDateFormat("기준 날짜 yyyy-MM-dd").format(System.currentTimeMillis())
 
         // 파일 읽기
+        Log.v("파일 로드","로그 작동 여부 확인")
+        val file = File(requireContext().filesDir,"bustime.txt")
+        while (!file.exists()) {
+            Log.v("파일 로드","파일이 없어 불러오는 중...")
+        }
+
         val busSchedule = mutableMapOf<String, MutableList<LocalTime>>()
-        File(requireContext().filesDir,"bustime.txt").forEachLine { line ->
+        file.forEachLine { line ->
             if (line.isBlank()) {
                 // 빈 문자열인 경우 처리하지 않음
                 return@forEachLine
@@ -71,7 +78,7 @@ class TabFragment2 : Fragment() {
 
                 // 버스번호 텍스트뷰 생성
                 val busNumberTextView = TextView(requireContext())
-                busNumberTextView.text = busNumber.toString()
+                busNumberTextView.text = busNumber
                 busNumberTextView.textSize = 18f
                 busNumberTextView.gravity = Gravity.CENTER
                 row.addView(busNumberTextView)
