@@ -40,8 +40,8 @@
 
 ---
 # 다운로드 링크 바로가기
-https://github.com/leestana01/HUFS_Bus_Information/releases/download/V1.4.0/HUFS_Bus_Information.apk
+https://github.com/leestana01/HUFS_Bus_Information/releases/download/V1.4.1/HUFS_Bus_Information.apk
 
-![download](https://user-images.githubusercontent.com/74558236/224531061-a023b0e6-319b-4980-891d-35323cfbb8ad.png)
+![download](https://user-images.githubusercontent.com/74558236/224589417-7a6d02c5-08ec-4ae1-a417-4552343b57b2.png)
 
 
