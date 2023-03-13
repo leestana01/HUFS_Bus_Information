@@ -64,6 +64,7 @@ class MainActivity : AppCompatActivity() {
 
             // 파일 저장
             val sb = readfile(url)
+            if (sb == false) return@withContext false
             val file = File(context.filesDir, "bustime.txt")
             file.writeText(sb.toString())
 
@@ -77,7 +78,11 @@ class MainActivity : AppCompatActivity() {
     private suspend fun checkUpdate() = withContext(Dispatchers.IO) {
         try {
             val url ="https://gist.githubusercontent.com/leestana01/c81a80308d31759040b19177539ca0e8/raw/HUFSBUS_bustime_appVersion"
-            val latestVersion = when(readfile(url).toString()){
+
+            val sb = readfile(url)
+            if (sb == false) return@withContext false
+
+            val latestVersion = when(sb){
                 "false" -> "0.0.0"
                 else -> readfile(url).toString()
             }
@@ -98,6 +103,8 @@ class MainActivity : AppCompatActivity() {
 
             // 파일 저장
             val sb = readfile(url)
+            if (sb == false) return@withContext false
+
             val file = File(context.filesDir, "notice.txt")
             file.writeText(sb.toString())
 
